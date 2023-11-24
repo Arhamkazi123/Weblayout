@@ -1,1 +1,1 @@
-#sample nothing else
+#sample layout for web
