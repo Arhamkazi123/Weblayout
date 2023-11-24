@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 9vh;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    font-size: 1.9vw;
+}
+
+#logo {
+    font-size: 3.5vw;
+    color: chocolate;
+}
+
+nav li:hover {
+    color:brown
+}
+
+.searchcart {
+    padding: auto;
+    margin-left: auto;
+}
+
+.searchcart input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 15px;
+    width: 500px;
+}
+.btn1{
+    color: white;
+    background-color: brown;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.img1sub img {
+    width: 140vh; 
+    height: 65vh;
+    display: block; 
+    margin: 12px auto;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vh;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px; /* Gap between items */
+    padding: 20px; /* Padding around the container */
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
